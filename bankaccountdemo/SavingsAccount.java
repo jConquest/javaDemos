@@ -1,15 +1,8 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package bankaccountdemo;
-
 /**
- *
  * @author Joseph Conquest
  * Class extends BankAccount adding field active
- * additional functionalities allow withdrawal and deposit only if active account
+ * additional functionalities allow withdrawal & deposit only if active account
  * IF deposit is big enough to get balance <=25 then account is reactivated
  * override montlyProcess
  */
@@ -37,7 +30,7 @@ public class SavingsAccount extends BankAccount {
         }
     }
     /**
-     * method if active withdraws parametere amount from balance
+     * method if active withdraws parameter amount from balance
      * calls withdraw() from BankAccount
      * @param num double
      */
@@ -48,7 +41,7 @@ public class SavingsAccount extends BankAccount {
             System.out.println("Insufficent Funds for a Withdrawal");
     }
     /**
-     * method if deposit is being made on inactive account, deposite must be
+     * method if deposit is being made on inactive account, deposit must be
      * sufficient to get funds at or above $25.00
      * Otherwise method deposits parameter passed
      * @param num double

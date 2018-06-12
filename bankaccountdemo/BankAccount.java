@@ -1,18 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package bankaccountdemo;
-
 /**
- *
  * @author Joseph Conquest
  * Design an abstract class named BankAccount to hold the following data for a 
  * bank account:
  Balance
  Number of deposits this month
- Number of withdrawls
+ Number of withdrawals 
  Annual interest rate
  Monthly service charges
 * Functionality includes setters for fields, constructor, deposit, withdraw,
@@ -24,7 +17,7 @@ public abstract class BankAccount {
     protected int withdrawNum;//withdrawal counter
     private double interest;//interest rate
     protected double fee;//service charges
-   //no argument constructor 
+   //default constructor 
    public BankAccount(){
        setBalance(0);
        interest = 0;
