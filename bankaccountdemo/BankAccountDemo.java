@@ -1,18 +1,11 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package bankaccountdemo;
-
 /**
- *
  * @author Joseph Conquest
  * Below code is small demo for
  * BankAccount and SavingsAccount Classes #9
  * code creates object
  * does 8 withdrawals
- * does one montly Process causing account to become inactive
+ * does one monthly Process causing account to become inactive
  * does one deposit reactivating account
  */
 public class BankAccountDemo {
